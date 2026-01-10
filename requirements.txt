@@ -1,5 +1,5 @@
 # Pin dependancies that might cause breakage
-Werkzeug==2.1.2
+Werkzeug==3.1.5
 SQLAlchemy==1.4.46
 
 # Build dependencies
@@ -31,3 +31,4 @@ httpie==3.2.1
 # Security
 Flask-Talisman
 Flask-Cors
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
